@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="fonts.css">
+    <script src="sakura.js"></script>
+    
+    <title>Sakura Ramen</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img class="navbarlogo" src="img/1_hero/PNG/sakura_logo.png" alt="" />
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
+        <div class="menulink-container">
+          <a id="navmenu" class="linktext" href="#om-contain">MENU</a>
+          <a id="navabout" class="linktext" href="#hto-contain">ABOUT</a>
+          <a id="navlocations" class="linktext" href="#locate">LOCATIONS</a>
+          <button class="callbutton">
+            <img style="height: 20px" src="img/1_hero/PNG/phone.png" alt="" />
+            <a href="tel:017654564534">0176 54564534</a>
+          </button>
+          <div>
+            <a onclick="german()"><img  class="gerflag" src="img/Flaggs/deflag.png" alt=""></a> | <a class="usflag" onclick="english()"><img class="usflag" src="img/Flaggs/usaflag.png" alt=""></a> 
+
+          </div>
+        </div>
+      </div>
+      <div class="headertext">
+        <h1>SAKURA RAMEN</h1>
+        <span id="headertext">THE BEST RAMEN IN TOWN</span>
+      </div>
+    </header>
+    <div id="hto-contain" class="hto-container">
+      <h2 id="hto">HOW TO ORDER</h2>
+      <div class="hto-orders">
+        <div class="hto-pngtext">
+          <img
+            width="128px"
+            src="img/2_section_how_to_order/PNG/noodle.png"
+            alt=""
+          />
+          <h3 id="pyn">
+            Pick your <br />
+            noodle
+          </h3>
+        </div>
+        <div class="hto-pngtext">
+          <img
+            width="128px"
+            src="img/2_section_how_to_order/PNG/broth.png"
+            alt=""
+          />
+          <h3 id="pyb">
+            Pick your <br />
+            broth
+          </h3>
+        </div>
+        <div class="hto-pngtext">
+          <img
+            width="128px"
+            src="img/2_section_how_to_order/PNG/egg.png"
+            alt=""
+          />
+          <h3 id="ayt">
+            Add your <br />
+            toppings
+          </h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="om-contain" class="om-container">
+      <h2 id="om">OUR MENU</h2>
+      <div class="om-list">
+        <div class="rowmenu">
+          <img class="rowmenupng"
+            
+            src="img/3_section_our_menu/Png/R1.png"
+            alt=""
+          />
+          <table class="tablelist">
+            <th class="thwidth">
+              <h4 style="text-align: left;">Tonkostu Ramen</h4>
+              <tr>
+                <td>Chicken</td>
+                <td>11.95€</td>
+              </tr>
+              <tr>
+                <td>BEEF</td>
+                <td>12.95€</td>
+              </tr>
+              <tr>
+                <td>SHRIMP</td>
+                <td>13.95€</td>
+              </tr>
+            </th>
+          </table>
+        </div>
+        <div class="rowreversemenu">
+          <img class="rowmenupng" 
+            src="img/3_section_our_menu/Png/R2.png"
+            alt=""
+          />
+          <table class="tablelist">
+            <th class="thwidth">
+              <h4 style="text-align: left;">Spicy Miso Ramen</h4>
+              <tr>
+                <td>Chicken</td>
+                <td>11.95€</td>
+              </tr>
+              <tr>
+                <td>BEEF</td>
+                <td>12.95€</td>
+              </tr>
+              <tr>
+                <td>SHRIMP</td>
+                <td>13.95€</td>
+              </tr>
+            </th>
+          </table>
+        </div>
+        <div class="rowmenu">
+          <img class="rowmenupng"
+            src="img/3_section_our_menu/Png/R3.png"
+            alt=""
+          />
+          <table class="tablelist">
+            <th class="thwidth">
+              <h4 style="text-align: left;">Shio Ramen</h4>
+            </th>
+            <tr>
+              <td>Chicken</td>
+              <td>11.95€</td>
+            </tr>
+            <tr>
+              <td>BEEF</td>
+              <td>12.95€</td>
+            </tr>
+            <tr>
+              <td>SHRIMP</td>
+              <td>13.95€</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="locate" class="location">
+      <h2 id="find">FIND US AT</h2>
+      <p class="adress"
+        ><img
+          class="mapmarker"
+          src="img/4_section_find_us_at/PNG/map_marker.png"
+          alt=""
+        />Sonnenblumenweg 31, München 80337</p
+      >
+    </div>
+    <div>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.222820909039!2d11.560076769590951!3d48.12522619082281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf76491f7e83%3A0xd9731116d56bf59c!2sSakura%20Ramen!5e0!3m2!1sde!2sde!4v1717153171442!5m2!1sde!2sde"
+        width="1440"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+    <footer>
+      <div>
+        <img
+          class="footerpng"
+          src="img/5_section_footer/PNG/sakura_ramen_logo_and_text.png"
+          alt=""
+        />
+      </div>
+      <div class="socialconatiner">
+        <img  class="sociallogo" src="img/5_section_footer/PNG/tripadvisor_logo.png" alt="" />
+        <img  class="sociallogo" src="img/5_section_footer/PNG/facebook_logo.png" alt="" />
+        <img  class="sociallogo" src="img/5_section_footer/PNG/instagrram_logo.png" alt="" />
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+@media (max-width: 1400px) {
+  /*Hamburger Menu*/
+
+  .menulink-container {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .menu-toggle:checked ~ .menulink-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .menulink-container a,
+  .menulink-container button {
+    margin: 10px 0;
+  }
+
+  /* Responsive Body */
+  .rowmenu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .rowreversemenu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 66px;
+  }
+  span {
+    font-size: 18px;
+  }
+  .hto-orders {
+    display: flex;
+    flex-direction: column;
+  }
+  .om-container {
+    padding: 120px 140px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .om-container {
+    padding: 120px 140px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 36px;
+  }
+  .rowmenupng {
+    height: 320px;
+    width: 320px;
+  }
+  td {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 36px;
+  }
+  .footerpng {
+    height: 24px;
+  }
+  .sociallogo {
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 900px) {
+  .om-container {
+    padding: 120px 120px;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  .rowmenu {
+    gap: 60px;
+  }
+  .rowreversemenu {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .om-container {
+    padding: 120px 100px;
+  }
+  .navbarlogo {
+    height: 40px;
+    width: 40px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  span {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .adress {
+    height: 16px;
+  }
+  .footerpng {
+    height: 18px;
+  }
+  .sociallogo {
+    height: 20px;
+    width: 20px;
+  }
+
+  .rowmenu {
+    gap: 40px;
+  }
+  .rowreversemenu {
+    gap: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .om-container {
+    padding: 120px 70px;
+  }
+  .navbarlogo {
+    display: none;
+  }
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+  header {
+    padding: 0px 70px;
+  }
+  .rowmenupng {
+    height: 200px;
+    width: 200px;
+  }
+  span {
+    font-size: 12px;
+  }
+  td {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  .hto-container {
+    padding: 120px 70px;
+  }
+  .footerpng {
+    display: none;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px;
+  }
+  .sociallogo {
+    height: 30px;
+    width: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .adress {
+    display: flex;
+    flex-direction: column;
+  }
+  .mapmarker {
+    height: 40px;
+  }
+  .location {
+    padding: 120px 70px 64px;
+  }
+  .rowmenu {
+    gap: 20px;
+  }
+  .rowreversemenu {
+    gap: 20px;
+  }
+}
